@@ -9,6 +9,7 @@ body {
   background-color: #000000;
   color: #ffffff;
   font-family: "Cormorant SC", serif;
+  overflow-x: hidden;
 }
 
 .card__content {
