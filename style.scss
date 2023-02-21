@@ -16,7 +16,7 @@ body {
   background-color: $bg-color;
   color: $text-color;
   font-family: "Cormorant SC", serif;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   // overflow-y: hidden;
 }
 
@@ -25,6 +25,10 @@ body {
   height: 80px;
   justify-content: space-around;
   gap: 0rem;
+  // background-color: red;
+  // width: 98vh;
+  // width: 125%;
+
   align-items: center;
   flex: 1 100%;
 }
@@ -41,16 +45,18 @@ body {
 
 @media (max-width: 460px) {
   .card__content {
-    // background-color: $header-color;
-    // width: 504px;
+    background-color: $header-color;
+    width: 502px;
+    // width: 430px;
+    // width: 100px;
   }
 }
 
-@media (min-width: 460px) {
-  .card__content {
-    background-color: $bg-color;
-  }
-}
+// @media (min-width: 460px) {
+//   .card__content {
+//     // background-color: $bg-color;
+//   }
+// }
 
 .logo {
   list-style: none;
@@ -95,8 +101,8 @@ body {
 
 @media (max-width: 415px) {
   .logo {
-    font-size: 1rem;
-    margin-left: -2rem;
+    font-size: 1.3rem;
+    margin-left: -1.3rem;
   }
 }
 
@@ -136,6 +142,7 @@ body {
 
   .bx-customize {
     margin-left: 10rem;
+    // font-size: 1.3rem;
   }
 }
 
@@ -189,7 +196,8 @@ body {
 @media (max-width: 415px) {
   .menu__icon {
     position: relative;
-    left: 8.3rem;
+    left: 12.7rem;
+    font-size: 1.3rem;
   }
 }
 

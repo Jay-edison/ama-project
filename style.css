@@ -9,7 +9,6 @@ body {
   background-color: #000000;
   color: #ffffff;
   font-family: "Cormorant SC", serif;
-  overflow-x: hidden;
 }
 
 .card__content {
@@ -26,9 +25,10 @@ body {
     padding-left: 2rem;
   }
 }
-@media (min-width: 460px) {
+@media (max-width: 460px) {
   .card__content {
-    background-color: #000000;
+    background-color: rgba(17, 17, 17, 0.6980392157);
+    width: 502px;
   }
 }
 .logo {
@@ -70,8 +70,8 @@ body {
 }
 @media (max-width: 415px) {
   .logo {
-    font-size: 1rem;
-    margin-left: -2rem;
+    font-size: 1.3rem;
+    margin-left: -1.3rem;
   }
 }
 @media (max-width: 395px) {
@@ -147,7 +147,8 @@ body {
 @media (max-width: 415px) {
   .menu__icon {
     position: relative;
-    left: 8.3rem;
+    left: 12.7rem;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 395px) {
